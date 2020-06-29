@@ -109,7 +109,7 @@ def valid_int(n):
 
 def args():
     args = ArgumentParser()
-    args.add_argument('username', help='email or username')
+    args.add_argument('vanifageria', help='hiranwalraman@gmail.com or vanifageria')
     args.add_argument('passlist', help='password list')
     args.add_argument('-nc', '--no-color', dest='color',
                       action='store_true', help='disable colors')
